@@ -44,18 +44,24 @@ body {
 }
 
 .slider-card {
-	background: #fff;
-    padding: 0px 0px;
-    margin: 50px 25px 90px 25px;
-    border-radius: 25px;
-    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
-    transform: scale(0.9);
-    opacity: 0.5;
-    transition: all 0.3s;
+	width: 350px;
+	padding-left: 30px ;
+	padding-right: 30px;
+	padding-top: 30px;
+	background: #aed8e7;
+	/* padding: 0px 0px; */
+	margin: 50px 20px 90px 20px;
+	border-radius: 25px; /* Updated border-radius */
+	/* box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%); */
+	transform: scale(0.9);
+	/* opacity: 0.5; */
+	transition: all 0.3s;
 
 .slider-card img{
-	border-radius: 5px 5px 0px 0px;
-}
+	width: 70vh;
+	height: 30vh;
+		border-radius: 25px; /* Ensure the image corners match the card corners */
+	}
 }
 .owl-nav {
 	.owl-prev {
